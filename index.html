@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio - Aditya Yadav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <section class="profile-section">
+            <img src="" alt="Profile Picture" class="profile-img">
+            <h2>Aditya Yadav</h2>
+            <p class="desc">Aspiring Web Developer</p>
+        </section>
+        <section class="skills-section">
+            <h3>My Skills</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>HTML</td><td>Advanced</td></tr>
+                    <tr><td>CSS</td><td>Advanced</td></tr>
+                    <tr><td>JavaScript</td><td>Intermediate</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="projects-section">
+            <h3>My Projects</h3>
+            <ul>
+                <li>Project 1: A simple HTML and Css web page</li>
+                <li>Project 2: Another awesome mini project</li>
+            </ul>
+        </section>
+        <section class="contact-section">
+            <h3>Contact Me</h3>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <textarea placeholder="Message" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <nav>
+            <button onclick="showAbout()">About</button>
+            <button onclick="showSkill()">Skill</button>
+            <button onclick="showProject()">Project</button>
+        </nav>
+    </div>
+</body>
+</html>

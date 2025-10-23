@@ -1,0 +1,70 @@
+body {
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+.portfolio-container {
+    width: 400px;
+    background: #fff;
+    margin: 30px auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+header {
+    background: #2563eb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 6px 6px 0 0;
+}
+.profile-section {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.profile-img {
+    border-radius: 50%;
+    border: 3px solid #2563eb;
+}
+.desc {
+    color: #4b5563;
+    font-size: 14px;
+}
+.skills-section, .projects-section, .contact-section {
+    margin-bottom: 16px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #2563eb;
+}
+th, td {
+    padding: 6px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+nav button, button[type="submit"] {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+}
+nav button:hover, button[type="submit"]:hover {
+    background: #1d4ed8;
+}
+input, textarea {
+    width: 94%;
+    padding: 6px;
+    margin: 4px 0 8px 0;
+    border-radius: 4px;
+    border: 1px solid #2563eb;
+}
